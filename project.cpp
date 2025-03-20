@@ -20,7 +20,7 @@ struct CacheConfig {
     int indexBits;
     int offsetBits;
 
-    CacheConfig(int addressBit=0, int blockSize=0, int cacheSets=0, int associativity=0) {
+    CacheConfig(int addressBits=0, int blockSize=0, int cacheSets=0, int associativity=0) {
         this->addressBits = addressBits;
         this->blockSize = blockSize;
         this->cacheSets = cacheSets;
